@@ -159,7 +159,7 @@ header > span {
 @media (min-width: 320px) and (max-width: 480px) {
   
   .meme > h2 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   header > span{
   	font-size: 1.3em;
