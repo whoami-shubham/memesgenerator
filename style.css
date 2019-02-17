@@ -117,9 +117,8 @@ header > span {
 @media (min-width: 768px) and (max-width: 1024px) {
   
   .meme > h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
-  
 }
 
 /* 
@@ -130,7 +129,7 @@ header > span {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
   .meme > h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
   
 }
@@ -143,7 +142,11 @@ header > span {
 @media (min-width: 481px) and (max-width: 767px) {
   
   .meme > h2 {
-    font-size: 1em;
+    font-size: 1.2em;
+  }
+  header > span{
+  	font-size: 1.3em;
+  	font-weight: bold;
   }
   
 }
@@ -156,7 +159,22 @@ header > span {
 @media (min-width: 320px) and (max-width: 480px) {
   
   .meme > h2 {
-    font-size: 0.5em;
+    font-size: 1.2em;
+  }
+  header > span{
+  	font-size: 1.3em;
+  	font-weight: bold;
+  }
+  
+}
+@media (min-width: 300px) and (max-width: 320px) {
+  
+  .meme > h2 {
+    font-size: 1em;
+  }
+  header > span{
+  	font-size: 1em;
+  	font-weight: bold;
   }
   
 }
