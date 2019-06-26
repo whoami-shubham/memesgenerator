@@ -5,10 +5,13 @@
 body {
     margin: 0;
     background-color: whitesmoke;
+    overflow-x: hidden;
 }
-
+img {
+  vertical-align: top !important;
+}
 header {
-    height: 100px;
+    max-height: 100px;
     display: flex;
     align-items: center;
     background: #6441A5;  /* fallback for old browsers */
@@ -17,14 +20,15 @@ header {
 }
 
 header > img {
-    height: 80%;
+  height: 6vw;
+  width: 8vw;
     margin-left: 5%;
 }
 
 header > span {
     font-family: VT323, monospace;
     color: whitesmoke;
-    font-size: 50px;
+    font-size: 5vw;
     margin-left: 60px;
 }
 
@@ -47,7 +51,7 @@ header > span {
     margin: 15px 0;
     padding: 0 5px;
     font-family: impact, sans-serif;
-    font-size: 2em;
+    font-size:2.7vw;
     text-transform: uppercase;
     color: white;
     letter-spacing: 1px;
@@ -87,7 +91,7 @@ header > span {
 .meme-form > button {
     border: none;
     font-family: VT323, monospace;
-    font-size: 25px;
+    font-size: 2vw;
     letter-spacing: 1.5px;
     color: white;
     background: #6441A5;
@@ -95,86 +99,30 @@ header > span {
 
 .meme-form > input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-family: VT323, monospace;
-  font-size: 25px;
+  font-size: 2vw;
   text-align: cen
 }
 .meme-form > input::-moz-placeholder { /* Firefox 19+ */
   font-family: VT323, monospace;
-  font-size: 25px;
+  font-size: 2vw;
   text-align: cen
 }
 .meme-form > input:-ms-input-placeholder { /* IE 10+ */
   font-family: VT323, monospace;
-  font-size: 25px;
+  font-size: 2vw;
   text-align: cen
 }
 .meme-form > input:-moz-placeholder { /* Firefox 18- */
   font-family: VT323, monospace;
-  font-size: 25px;
+  font-size: 2vw;
   text-align: cen
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 600px) {
   
   .meme > h2 {
-    font-size: 1.4em;
-  }
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  .meme > h2 {
-    font-size: 1.4em;
+    font-size: 4vw;
   }
   
 }
 
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  .meme > h2 {
-    font-size: 1.2em;
-  }
-  header > span{
-  	font-size: 1.3em;
-  	font-weight: bold;
-  }
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-  .meme > h2 {
-    font-size: 1em;
-  }
-  header > span{
-  	font-size: 1.3em;
-  	font-weight: bold;
-  }
-  
-}
-@media (min-width: 300px) and (max-width: 320px) {
-  
-  .meme > h2 {
-    font-size: 1em;
-  }
-  header > span{
-  	font-size: 1em;
-  	font-weight: bold;
-  }
-  
-}

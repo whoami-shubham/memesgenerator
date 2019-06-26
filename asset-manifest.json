@@ -1,11 +1,11 @@
 {
-  "main.js": "/static/js/main.f42ba146.chunk.js",
-  "main.js.map": "/static/js/main.f42ba146.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
-  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
-  "static/js/2.f9675513.chunk.js": "/static/js/2.f9675513.chunk.js",
-  "static/js/2.f9675513.chunk.js.map": "/static/js/2.f9675513.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.735695c3de96ef446c2ab2cadd2ce1f4.js": "/precache-manifest.735695c3de96ef446c2ab2cadd2ce1f4.js",
-  "service-worker.js": "/service-worker.js"
+  "main.js": "/memesgenerater/static/js/main.eb824126.chunk.js",
+  "main.js.map": "/memesgenerater/static/js/main.eb824126.chunk.js.map",
+  "runtime~main.js": "/memesgenerater/static/js/runtime~main.9bb0369d.js",
+  "runtime~main.js.map": "/memesgenerater/static/js/runtime~main.9bb0369d.js.map",
+  "static/js/2.1392f48c.chunk.js": "/memesgenerater/static/js/2.1392f48c.chunk.js",
+  "static/js/2.1392f48c.chunk.js.map": "/memesgenerater/static/js/2.1392f48c.chunk.js.map",
+  "index.html": "/memesgenerater/index.html",
+  "precache-manifest.5cafe0467191322233c6b57bfba1d356.js": "/memesgenerater/precache-manifest.5cafe0467191322233c6b57bfba1d356.js",
+  "service-worker.js": "/memesgenerater/service-worker.js"
 }
